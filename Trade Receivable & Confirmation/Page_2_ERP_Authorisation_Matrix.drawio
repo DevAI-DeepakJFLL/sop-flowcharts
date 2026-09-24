@@ -1,0 +1,117 @@
+<mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1900" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+<mxCell id="2" value="&lt;b&gt;SUB-PROCESS C: AUTHORISATION MATRIX &amp; CREDIT LIMIT CONTROLS IN ERP&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:12px;font-weight:normal;&#x27;&gt;System-Enforced Booking Holds, Credit Assessment, Advance PDC Collection &amp; Multi-Tier Approval Matrix&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0f172a;strokeColor=#1e293b;fontColor=#ffffff;fontSize=15;fontStyle=1;align=center;arcSize=6;" vertex="1" parent="1">
+  <mxGeometry x="40" y="30" width="1920" height="60" as="geometry" />
+</mxCell>
+<mxCell id="3" value="&lt;b&gt;System Gatekeeper:&lt;/b&gt; ERP Credit Control Validation Engine &amp;nbsp;|&amp;nbsp; &lt;b&gt;Approval Levels:&lt;/b&gt; Head – CC &amp; Collection (Standard Override), MD / Directors (Credit Note / Policy Exception)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e293b;strokeColor=#334155;fontColor=#94a3b8;fontSize=11;align=center;arcSize=6;" vertex="1" parent="1">
+  <mxGeometry x="40" y="95" width="1920" height="35" as="geometry" />
+</mxCell>
+<mxCell id="4" value="&lt;b&gt;New Shipment / Job Booking Request&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Customer requests cargo booking / airway bill issuance&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dbeafe;strokeColor=#2563eb;fontColor=#1e40af;fontSize=12;fontStyle=1;align=center;arcSize=20;" vertex="1" parent="1">
+  <mxGeometry x="380" y="160" width="320" height="55" as="geometry" />
+</mxCell>
+<mxCell id="5" value="&lt;b&gt;ERP System Automated Credit Validation&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;ERP evaluates account against credit limit &amp; overdue rules&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#0284c7;fontColor=#0f172a;fontSize=12;fontStyle=0;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="380" y="245" width="320" height="60" as="geometry" />
+</mxCell>
+<mxCell id="6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="4" target="5" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="7" value="&lt;b&gt;Is Overdue &gt; 30 Days&lt;br/&gt;OR Credit Limit&lt;br/&gt;Exceeded / Short?&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#d97706;fontColor=#78350f;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1">
+  <mxGeometry x="420" y="335" width="240" height="90" as="geometry" />
+</mxCell>
+<mxCell id="8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="5" target="7" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="9" value="&lt;b&gt;Automated ERP Approval&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Account within credit terms &amp; limit;&lt;br/&gt;Billing Exec books Job Code immediately&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dcfce7;strokeColor=#16a34a;fontColor=#14532d;fontSize=11;fontStyle=1;align=center;arcSize=10;" vertex="1" parent="1">
+  <mxGeometry x="860" y="350" width="300" height="60" as="geometry" />
+</mxCell>
+<mxCell id="10" value="No (Account Clean)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#16a34a;strokeWidth=2;fontColor=#16a34a;fontSize=11;fontStyle=1;" edge="1" source="7" target="9" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="11" value="&lt;b&gt;ERP Auto-Blocks Job Code Booking&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;• System locks customer code for job booking&lt;br/&gt;• Billing Exec flags shortage / block to Head CC&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fee2e2;strokeColor=#dc2626;fontColor=#991b1b;fontSize=12;fontStyle=1;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="380" y="460" width="320" height="70" as="geometry" />
+</mxCell>
+<mxCell id="12" value="Yes (Overdue/Limit Short)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#dc2626;strokeWidth=2;fontColor=#dc2626;fontSize=11;fontStyle=1;" edge="1" source="7" target="11" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="13" value="&lt;b&gt;Head – CC &amp; Collection Risk Evaluation&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Reviews: (1) Total outstanding balance &amp; ageing&lt;br/&gt;(2) Customer creditworthiness &amp; payment track record&lt;br/&gt;(3) Strategic relationship &amp; freight volume&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#0284c7;fontColor=#0f172a;fontSize=12;fontStyle=0;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="380" y="560" width="320" height="75" as="geometry" />
+</mxCell>
+<mxCell id="14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="11" target="13" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="15" value="&lt;b&gt;Collect Advance Security PDC Cheque&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Rule: Collect excess-amount Post-Dated Cheque (PDC)&lt;br/&gt;or security deposit before considering limit raise&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffedd5;strokeColor=#ea580c;fontColor=#9a3412;fontSize=12;fontStyle=1;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="380" y="665" width="320" height="70" as="geometry" />
+</mxCell>
+<mxCell id="16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="13" target="15" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="17" value="&lt;b&gt;Head CC Approval&lt;br/&gt;Decision?&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#d97706;fontColor=#78350f;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1">
+  <mxGeometry x="420" y="765" width="240" height="85" as="geometry" />
+</mxCell>
+<mxCell id="18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="15" target="17" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="19" value="&lt;b&gt;Booking Declined / Shipment Held&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Shipment strictly held until overdue dues cleared&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fee2e2;strokeColor=#dc2626;fontColor=#991b1b;fontSize=12;fontStyle=1;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="60" y="780" width="280" height="55" as="geometry" />
+</mxCell>
+<mxCell id="20" value="Decline" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#dc2626;strokeWidth=2;fontColor=#dc2626;fontSize=11;fontStyle=1;" edge="1" source="17" target="19" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="21" value="&lt;b&gt;Is Limit Funded via&lt;br/&gt;Credit Note or Major&lt;br/&gt;Process Deviation?&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#d97706;fontColor=#78350f;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1">
+  <mxGeometry x="420" y="880" width="240" height="85" as="geometry" />
+</mxCell>
+<mxCell id="22" value="Approve Override" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#16a34a;strokeWidth=2;fontColor=#16a34a;fontSize=11;fontStyle=1;" edge="1" source="17" target="21" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="23" value="&lt;b&gt;Head CC Direct Authorization in ERP&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Head CC approves standard shipment in ERP;&lt;br/&gt;Billing Executive books Job Code (within 1 working day)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dcfce7;strokeColor=#16a34a;fontColor=#14532d;fontSize=11;fontStyle=1;align=center;arcSize=10;" vertex="1" parent="1">
+  <mxGeometry x="860" y="895" width="300" height="60" as="geometry" />
+</mxCell>
+<mxCell id="24" value="No (Standard Override)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#16a34a;strokeWidth=2;fontColor=#16a34a;fontSize=11;fontStyle=1;" edge="1" source="21" target="23" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="25" value="&lt;b&gt;Escalate to MD / Board of Directors&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Submit formal credit note justification &amp; exposure brief&lt;br/&gt;to Managing Director for executive approval&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffedd5;strokeColor=#ea580c;fontColor=#9a3412;fontSize=12;fontStyle=1;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="380" y="1000" width="320" height="70" as="geometry" />
+</mxCell>
+<mxCell id="26" value="Yes (Credit Note/Deviation)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#dc2626;strokeWidth=2;fontColor=#dc2626;fontSize=11;fontStyle=1;" edge="1" source="21" target="25" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="27" value="&lt;b&gt;MD / Directors&lt;br/&gt;Approval Decision?&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#d97706;fontColor=#78350f;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1">
+  <mxGeometry x="420" y="1100" width="240" height="85" as="geometry" />
+</mxCell>
+<mxCell id="28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="25" target="27" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="29" value="&lt;b&gt;Exception Rejected by MD&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;No booking allowed; client required to settle dues&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fee2e2;strokeColor=#dc2626;fontColor=#991b1b;fontSize=12;fontStyle=1;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="60" y="1115" width="280" height="55" as="geometry" />
+</mxCell>
+<mxCell id="30" value="Reject" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#dc2626;strokeWidth=2;fontColor=#dc2626;fontSize=11;fontStyle=1;" edge="1" source="27" target="29" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="31" value="&lt;b&gt;MD Executive Approval Recorded&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Special credit approval logged in ERP audit trail;&lt;br/&gt;Billing Executive books Job Code&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dcfce7;strokeColor=#16a34a;fontColor=#14532d;fontSize=11;fontStyle=1;align=center;arcSize=10;" vertex="1" parent="1">
+  <mxGeometry x="380" y="1215" width="320" height="65" as="geometry" />
+</mxCell>
+<mxCell id="32" value="Approve" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#16a34a;strokeWidth=2;fontColor=#16a34a;fontSize=11;fontStyle=1;" edge="1" source="27" target="31" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="33" value="&lt;b&gt;Shipment Released &amp; Dispatched&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Airway bill issued; cargo moves; exposure tracked&lt;br/&gt;in weekly outstanding MIS&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dbeafe;strokeColor=#2563eb;fontColor=#1e40af;fontSize=12;fontStyle=1;align=center;arcSize=20;" vertex="1" parent="1">
+  <mxGeometry x="860" y="1215" width="300" height="65" as="geometry" />
+</mxCell>
+<mxCell id="34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="23" target="33" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="31" target="33" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="36" value="&lt;b&gt;DETAILED NOTE C-1: ERP AUTOMATED CREDIT LIMIT ENFORCEMENT&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;ERP Validation Engine:&lt;/b&gt; The ERP acts as the frontline gatekeeper. Whenever operations or billing attempts to book a job code, the ERP cross-references the client ledger in real-time.&lt;br/&gt;• &lt;b&gt;Two Blocking Triggers:&lt;/b&gt;&lt;br/&gt;  1. &lt;i&gt;Ageing Violation:&lt;/i&gt; Any unpaid invoice exceeding 30 days overdue immediately locks the client account.&lt;br/&gt;  2. &lt;i&gt;Exposure Ceiling:&lt;/i&gt; If the total exposure (unbilled jobs + outstanding invoices) exceeds the approved credit limit, the system refuses job creation.&lt;br/&gt;• &lt;b&gt;Turnaround SLA:&lt;/b&gt; Authority matrix approval requests must be addressed within &lt;b&gt;1 working day&lt;/b&gt; to prevent operational cargo dispatch delays." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffdf5;strokeColor=#f59e0b;fontColor=#1c1917;fontSize=11;fontStyle=0;align=left;spacingLeft=12;spacingRight=12;spacingTop=10;spacingBottom=10;arcSize=6;" vertex="1" parent="1">
+  <mxGeometry x="1240" y="160" width="720" height="240" as="geometry" />
+</mxCell>
+<mxCell id="37" value="&lt;b&gt;DETAILED NOTE C-2: RISK ASSESSMENT &amp; ADVANCE SECURITY PDC MANDATE&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Pre-requisites for Temporary Limit Enhancement:&lt;/b&gt;&lt;br/&gt;  - Head CC conducts a tripartite evaluation: creditworthiness history, strategic client relationship, and gross freight margin/business volume.&lt;br/&gt;• &lt;b&gt;Mandatory Risk Mitigation (Security Cheques):&lt;/b&gt; The SOP strictly mandates collecting advance Post-Dated Cheques (PDC) or security deposit cheques covering the excess exposure prior to granting shipment approval.&lt;br/&gt;• &lt;b&gt;Single Shipment vs Blanket Limit:&lt;/b&gt; Overrides are granted strictly on a per-shipment basis unless an institutional credit review is formally completed." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffdf5;strokeColor=#f59e0b;fontColor=#1c1917;fontSize=11;fontStyle=0;align=left;spacingLeft=12;spacingRight=12;spacingTop=10;spacingBottom=10;arcSize=6;" vertex="1" parent="1">
+  <mxGeometry x="1240" y="430" width="720" height="250" as="geometry" />
+</mxCell>
+<mxCell id="38" value="&lt;b&gt;DETAILED NOTE C-3: DUAL-KEY GOVERNANCE &amp; MD/DIRECTOR APPROVAL&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Separation of Financial Powers:&lt;/b&gt; While Head CC can authorize operational shipment releases against security PDCs, they CANNOT unilaterally approve limit expansions funded by credit notes.&lt;br/&gt;• &lt;b&gt;Credit Note Funding Exception:&lt;/b&gt; Any excess-limit request backed or funded via credit note adjustments introduces commercial dilution risk and strictly requires the signature of the &lt;b&gt;Managing Director / Directors&lt;/b&gt;.&lt;br/&gt;• &lt;b&gt;Audit Trail:&lt;/b&gt; All overrides, approvals, and rejection notes are permanently logged in the ERP authorization log for statutory audit scrutiny." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffdf5;strokeColor=#f59e0b;fontColor=#1c1917;fontSize=11;fontStyle=0;align=left;spacingLeft=12;spacingRight=12;spacingTop=10;spacingBottom=10;arcSize=6;" vertex="1" parent="1">
+  <mxGeometry x="1240" y="710" width="720" height="250" as="geometry" />
+</mxCell>
+  </root>
+</mxGraphModel>

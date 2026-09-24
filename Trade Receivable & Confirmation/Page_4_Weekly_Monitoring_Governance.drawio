@@ -1,0 +1,78 @@
+<mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1900" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+<mxCell id="2" value="&lt;b&gt;SUB-PROCESS D: MONITORING OF TRADE RECEIVABLE (WEEKLY GOVERNANCE CADENCE)&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:12px;font-weight:normal;&#x27;&gt;Saturday Multi-Dimensional ERP Ageing Run, Branch Remarks Enrichment, Monday Executive Review &amp; MD Escalations&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0f172a;strokeColor=#1e293b;fontColor=#ffffff;fontSize=15;fontStyle=1;align=center;arcSize=6;" vertex="1" parent="1">
+  <mxGeometry x="40" y="30" width="1920" height="60" as="geometry" />
+</mxCell>
+<mxCell id="3" value="&lt;b&gt;Cadence:&lt;/b&gt; Weekly (Saturday to Monday) &amp;nbsp;|&amp;nbsp; &lt;b&gt;Key Actors:&lt;/b&gt; Billing Exec (Data), Collection Exec / Branch Mgr (Enrichment), Management / MD (Executive Governance)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e293b;strokeColor=#334155;fontColor=#94a3b8;fontSize=11;align=center;arcSize=6;" vertex="1" parent="1">
+  <mxGeometry x="40" y="95" width="1920" height="35" as="geometry" />
+</mxCell>
+<mxCell id="4" value="&lt;b&gt;Periodic Trigger: Every Saturday&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Weekly financial reporting rhythm initiates&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dbeafe;strokeColor=#2563eb;fontColor=#1e40af;fontSize=12;fontStyle=1;align=center;arcSize=20;" vertex="1" parent="1">
+  <mxGeometry x="380" y="160" width="320" height="55" as="geometry" />
+</mxCell>
+<mxCell id="5" value="&lt;b&gt;Step 1: ERP Age-Wise Outstanding Report Run&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Billing Exec generates detailed ageing reports across 3 axes:&lt;br/&gt;• &lt;b&gt;Sales-Wise&lt;/b&gt; (BDM / Sales Executive performance)&lt;br/&gt;• &lt;b&gt;Customer-Wise&lt;/b&gt; (Account balances &amp; overdue buckets)&lt;br/&gt;• &lt;b&gt;Branch-Wise&lt;/b&gt; (Location &amp; regional breakdown)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#0284c7;fontColor=#0f172a;fontSize=12;fontStyle=0;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="380" y="245" width="320" height="85" as="geometry" />
+</mxCell>
+<mxCell id="6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="4" target="5" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="7" value="&lt;b&gt;Step 2: Distribution to Field Leadership&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Billing Exec emails reports every Saturday to Location Heads&lt;br/&gt;and Branch Managers, copying the &lt;b&gt;Vertical Head&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#0284c7;fontColor=#0f172a;fontSize=12;fontStyle=0;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="380" y="360" width="320" height="65" as="geometry" />
+</mxCell>
+<mxCell id="8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="5" target="7" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="9" value="&lt;b&gt;Step 3: Long-Outstanding Remarks Enrichment&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Collection Executive &amp; Branch Managers investigate&lt;br/&gt;long-outstanding items and record specific recovery remarks&lt;br/&gt;(Promise to pay dates, dispute status, cheque details)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eff6ff;strokeColor=#3b82f6;fontColor=#1e3a8a;fontSize=12;fontStyle=0;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="380" y="455" width="320" height="75" as="geometry" />
+</mxCell>
+<mxCell id="10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="7" target="9" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="11" value="&lt;b&gt;Periodic Trigger: Every Monday&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Weekly executive review meeting convenes&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dbeafe;strokeColor=#2563eb;fontColor=#1e40af;fontSize=12;fontStyle=1;align=center;arcSize=20;" vertex="1" parent="1">
+  <mxGeometry x="380" y="560" width="320" height="55" as="geometry" />
+</mxCell>
+<mxCell id="12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="9" target="11" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="13" value="&lt;b&gt;Step 4: Management Executive Review Meeting&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Management (MD, Directors, Vertical Heads, Head CC)&lt;br/&gt;reviews all long-outstanding items, verifies remarks accuracy,&lt;br/&gt;and tracks recovery action plan&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#0284c7;fontColor=#0f172a;fontSize=12;fontStyle=0;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="380" y="645" width="320" height="75" as="geometry" />
+</mxCell>
+<mxCell id="14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="11" target="13" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="15" value="&lt;b&gt;Are Process Deviations&lt;br/&gt;or High-Risk Debts&lt;br/&gt;Identified?&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#d97706;fontColor=#78350f;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1">
+  <mxGeometry x="420" y="750" width="240" height="85" as="geometry" />
+</mxCell>
+<mxCell id="16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="13" target="15" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="17" value="&lt;b&gt;Assign Standard Recovery Directives&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Directives issued to Branch Managers and Sales Execs;&lt;br/&gt;Monitored in next Saturday&#x27;s reporting cycle&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dcfce7;strokeColor=#16a34a;fontColor=#14532d;fontSize=11;fontStyle=1;align=center;arcSize=10;" vertex="1" parent="1">
+  <mxGeometry x="860" y="760" width="300" height="65" as="geometry" />
+</mxCell>
+<mxCell id="18" value="No (Standard Follow-up)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#16a34a;strokeWidth=2;fontColor=#16a34a;fontSize=11;fontStyle=1;" edge="1" source="15" target="17" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="19" value="&lt;b&gt;Escalate Deviations to MD / Directors&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Unauthorized credit extensions, notice omissions, or stubborn&lt;br/&gt;defaulters are escalated directly to &lt;b&gt;MD / Directors&lt;/b&gt; for approval&lt;br/&gt;and executive intervention&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fee2e2;strokeColor=#dc2626;fontColor=#991b1b;fontSize=12;fontStyle=1;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="380" y="865" width="320" height="75" as="geometry" />
+</mxCell>
+<mxCell id="20" value="Yes (Deviations/Risk)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#dc2626;strokeWidth=2;fontColor=#dc2626;fontSize=11;fontStyle=1;" edge="1" source="15" target="19" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="21" value="&lt;b&gt;Executive Directives &amp; Policy Enforcement&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;MD/Directors issue binding recovery decisions (Immediate legal&lt;br/&gt;filing, blanket commercial freeze, or special restructuring);&lt;br/&gt;Compliance tracked weekly&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dcfce7;strokeColor=#16a34a;fontColor=#14532d;fontSize=11;fontStyle=1;align=center;arcSize=10;" vertex="1" parent="1">
+  <mxGeometry x="380" y="970" width="320" height="70" as="geometry" />
+</mxCell>
+<mxCell id="22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="19" target="21" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="23" value="&lt;b&gt;DETAILED NOTE D-1: SATURDAY RUN &amp; 3-DIMENSIONAL AGEING ANALYSIS&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Weekend Operating Cadence:&lt;/b&gt; Every Saturday, the Billing Executive extracts fresh ledger data from the ERP to provide an uncompromised, accurate picture of company-wide receivables.&lt;br/&gt;• &lt;b&gt;3-Dimensional Visibility:&lt;/b&gt;&lt;br/&gt;  1. &lt;i&gt;Sales-Wise:&lt;/i&gt; Holds BDMs and Sales Executives accountable for client payment discipline.&lt;br/&gt;  2. &lt;i&gt;Customer-Wise:&lt;/i&gt; Identifies exposure concentration and aged overdue buckets (0-30, 31-60, 61-90, 90-120, 120+ days).&lt;br/&gt;  3. &lt;i&gt;Branch-Wise:&lt;/i&gt; Allows regional comparison and location head accountability.&lt;br/&gt;• &lt;b&gt;Leadership Distribution:&lt;/b&gt; Reports are emailed to Location Heads, copying the Vertical Head to enforce organizational visibility." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffdf5;strokeColor=#f59e0b;fontColor=#1c1917;fontSize=11;fontStyle=0;align=left;spacingLeft=12;spacingRight=12;spacingTop=10;spacingBottom=10;arcSize=6;" vertex="1" parent="1">
+  <mxGeometry x="1240" y="160" width="720" height="240" as="geometry" />
+</mxCell>
+<mxCell id="24" value="&lt;b&gt;DETAILED NOTE D-2: ENRICHMENT OF REMARKS &amp; FIELD ACCOUNTABILITY&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Mandatory Contextual Enrichment:&lt;/b&gt; Raw numbers alone are insufficient. Over the weekend and early Monday morning, Collection Executives and Branch Managers must annotate every long-outstanding account.&lt;br/&gt;• &lt;b&gt;Remark Standards:&lt;/b&gt; Remarks must specify: exact date of last customer contact, debtor AP feedback, confirmed Promise-to-Pay (PTP) date, cheque numbers in transit, or documented dispute status.&lt;br/&gt;• &lt;b&gt;Data Integrity Check:&lt;/b&gt; The Head – CC &amp; Collection audits remarks prior to the Monday meeting to eliminate generic or evasive annotations." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffdf5;strokeColor=#f59e0b;fontColor=#1c1917;fontSize=11;fontStyle=0;align=left;spacingLeft=12;spacingRight=12;spacingTop=10;spacingBottom=10;arcSize=6;" vertex="1" parent="1">
+  <mxGeometry x="1240" y="430" width="720" height="240" as="geometry" />
+</mxCell>
+<mxCell id="25" value="&lt;b&gt;DETAILED NOTE D-3: MONDAY MANAGEMENT FORUM &amp; ESCALATION TO MD&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Executive Review Forum:&lt;/b&gt; Every Monday morning, top management (MD, Directors, Vertical Heads, Head CC) reviews receivables aged beyond critical thresholds.&lt;br/&gt;• &lt;b&gt;Process Deviation Threshold:&lt;/b&gt; Any instance where standard dunning was bypassed, credit limits were breached without sanction, or credit exceeded 120 days is classified as a process deviation.&lt;br/&gt;• &lt;b&gt;Binding Board Resolution:&lt;/b&gt; All deviations are escalated to the MD/Directors, who issue executive mandates regarding legal proceedings, client credit revocation, or settlement terms." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffdf5;strokeColor=#f59e0b;fontColor=#1c1917;fontSize=11;fontStyle=0;align=left;spacingLeft=12;spacingRight=12;spacingTop=10;spacingBottom=10;arcSize=6;" vertex="1" parent="1">
+  <mxGeometry x="1240" y="700" width="720" height="260" as="geometry" />
+</mxCell>
+  </root>
+</mxGraphModel>

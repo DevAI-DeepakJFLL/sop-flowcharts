@@ -1,0 +1,96 @@
+<mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="1900" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+<mxCell id="2" value="&lt;b&gt;SUB-PROCESS A: BALANCE CONFIRMATION CYCLE&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:12px;font-weight:normal;&#x27;&gt;Quarterly Reconciliation, Multi-Channel Dispatch, Dispute Escalation to Sales Head &amp; Audit MIS Preparation&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0f172a;strokeColor=#1e293b;fontColor=#ffffff;fontSize=15;fontStyle=1;align=center;arcSize=6;" vertex="1" parent="1">
+  <mxGeometry x="40" y="30" width="1920" height="60" as="geometry" />
+</mxCell>
+<mxCell id="3" value="&lt;b&gt;Frequency:&lt;/b&gt; Every Quarter-End &amp;nbsp;|&amp;nbsp; &lt;b&gt;Preparation SLA:&lt;/b&gt; Within 15 Days of Quarter-End &amp;nbsp;|&amp;nbsp; &lt;b&gt;Collection SLA:&lt;/b&gt; Within 1 Month of Quarter-End &amp;nbsp;|&amp;nbsp; &lt;b&gt;Escalation Lead:&lt;/b&gt; Sales Head" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e293b;strokeColor=#334155;fontColor=#94a3b8;fontSize=11;align=center;arcSize=6;" vertex="1" parent="1">
+  <mxGeometry x="40" y="95" width="1920" height="35" as="geometry" />
+</mxCell>
+<mxCell id="4" value="&lt;b&gt;Quarter-End Financial Close (Q1, Q2, Q3, Q4)&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Periodic trigger: 31st Mar, 30th Jun, 30th Sep, 31st Dec&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dbeafe;strokeColor=#2563eb;fontColor=#1e40af;fontSize=12;fontStyle=1;align=center;arcSize=20;" vertex="1" parent="1">
+  <mxGeometry x="380" y="160" width="320" height="55" as="geometry" />
+</mxCell>
+<mxCell id="5" value="&lt;b&gt;Step 1: CC Executive Prepares Confirmations&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Extracts ledger balances and prepares balance confirmation&lt;br/&gt;letters per customer within &lt;b&gt;15 days&lt;/b&gt; of quarter-end&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#0284c7;fontColor=#0f172a;fontSize=12;fontStyle=0;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="380" y="245" width="320" height="65" as="geometry" />
+</mxCell>
+<mxCell id="6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="4" target="5" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="7" value="&lt;b&gt;Step 2-3: Head – CC &amp; Collection Review&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;CC Executive submits draft letters to Head CC;&lt;br/&gt;Head CC reviews, validates balances and authorizes dispatch&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#0284c7;fontColor=#0f172a;fontSize=12;fontStyle=0;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="380" y="340" width="320" height="65" as="geometry" />
+</mxCell>
+<mxCell id="8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="5" target="7" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="9" value="&lt;b&gt;Step 4: Multi-Channel Dispatch &amp; Proof Collection&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;CC Team dispatches confirmation letters via:&lt;br/&gt;&lt;b&gt;Courier &amp;nbsp;|&amp;nbsp; Hand Delivery &amp;nbsp;|&amp;nbsp; Official Email&lt;/b&gt;&lt;br/&gt;Mandatory: Obtain courier POD or physical receipt ack&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#0284c7;fontColor=#0f172a;fontSize=12;fontStyle=0;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="380" y="435" width="320" height="75" as="geometry" />
+</mxCell>
+<mxCell id="10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="7" target="9" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="11" value="&lt;b&gt;Step 5: Coordinated Follow-Up&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;CC Team follows up with Customer AP &amp; Sales Executive;&lt;br/&gt;Target: Collect signed confirmations within 1 month&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eff6ff;strokeColor=#3b82f6;fontColor=#1e3a8a;fontSize=12;fontStyle=0;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="380" y="540" width="320" height="65" as="geometry" />
+</mxCell>
+<mxCell id="12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="9" target="11" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="13" value="&lt;b&gt;Customer Response&lt;br/&gt;Verification?&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#d97706;fontColor=#78350f;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1">
+  <mxGeometry x="380" y="635" width="320" height="90" as="geometry" />
+</mxCell>
+<mxCell id="14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="11" target="13" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="15" value="&lt;b&gt;Confirmed: Signed &amp; Stamped Received&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Customer agrees with ledger balance;&lt;br/&gt;Signs, stamps and returns confirmation&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dcfce7;strokeColor=#16a34a;fontColor=#14532d;fontSize=11;fontStyle=1;align=center;arcSize=10;" vertex="1" parent="1">
+  <mxGeometry x="860" y="645" width="300" height="70" as="geometry" />
+</mxCell>
+<mxCell id="16" value="Agreed (No Variance)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#16a34a;strokeWidth=2;fontColor=#16a34a;fontSize=11;fontStyle=1;" edge="1" source="13" target="15" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="17" value="&lt;b&gt;Step 6: Discrepancy Escalated to Sales Head&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Customer disputes balance or claims credit variance;&lt;br/&gt;CC Team immediately escalates to &lt;b&gt;Sales Head&lt;/b&gt; for resolution&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffedd5;strokeColor=#ea580c;fontColor=#9a3412;fontSize=12;fontStyle=1;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="380" y="760" width="320" height="75" as="geometry" />
+</mxCell>
+<mxCell id="18" value="Discrepancy / Dispute" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#dc2626;strokeWidth=2;fontColor=#dc2626;fontSize=11;fontStyle=1;" edge="1" source="13" target="17" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="19" value="&lt;b&gt;Unanswered / Late Confirmation&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Customer fails to reply within 1 month;&lt;br/&gt;Flagged to Sales Head &amp; Head CC for intervention&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fee2e2;strokeColor=#dc2626;fontColor=#991b1b;fontSize=12;fontStyle=1;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="60" y="645" width="280" height="70" as="geometry" />
+</mxCell>
+<mxCell id="20" value="No Reply" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#dc2626;strokeWidth=2;fontColor=#dc2626;fontSize=11;fontStyle=1;" edge="1" source="13" target="19" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="19" target="17" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="22" value="&lt;b&gt;Investigation &amp; Reconciliation Protocol&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Sales Head &amp; CC Team investigate root causes:&lt;br/&gt;(Rate dispute, short shipments, pending credit notes);&lt;br/&gt;Reasons documented and formal adjustments prepared&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#0284c7;fontColor=#0f172a;fontSize=12;fontStyle=0;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="380" y="865" width="320" height="70" as="geometry" />
+</mxCell>
+<mxCell id="23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="17" target="22" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="24" value="&lt;b&gt;Step 7-8: File Confirmation &amp; Update Records&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;CC Team files original signed physical/digital confirmation;&lt;br/&gt;Updates ERP records with received date, reconciliation&lt;br/&gt;notes, and verified balance remarks&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#0284c7;fontColor=#0f172a;fontSize=12;fontStyle=0;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="380" y="965" width="320" height="75" as="geometry" />
+</mxCell>
+<mxCell id="25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="15" target="24" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="22" target="24" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="27" value="&lt;b&gt;Step 7 (Cont.): Quarterly Balance Confirmation MIS&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;CC Team prepares comprehensive quarterly MIS for all parties:&lt;br/&gt;Sent vs Received vs Disputed vs Pending Status;&lt;br/&gt;Submitted to Head CC, Management &amp; Statutory Auditors&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dcfce7;strokeColor=#16a34a;fontColor=#14532d;fontSize=11;fontStyle=1;align=center;arcSize=10;" vertex="1" parent="1">
+  <mxGeometry x="380" y="1070" width="320" height="75" as="geometry" />
+</mxCell>
+<mxCell id="28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="24" target="27" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="29" value="&lt;b&gt;DETAILED NOTE A-1: 15-DAY GENERATION SLA &amp; AUDIT RIGOR&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Regulatory &amp; Statutory Importance:&lt;/b&gt; External auditors mandate independent confirmation of trade receivables to substantiate balance sheet accuracy and identify unrecorded credit notes or disputed revenue.&lt;br/&gt;• &lt;b&gt;Strict 15-Day Preparation Window:&lt;/b&gt; The CC Executive has exactly 15 calendar days post quarter-end to generate all customer confirmations from the ERP ledger.&lt;br/&gt;• &lt;b&gt;Head CC Review Gate:&lt;/b&gt; Confirmations cannot be dispatched without Head CC authorization to verify that interest debits, pending credit notes, or legal holdbacks are properly reflected." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffdf5;strokeColor=#f59e0b;fontColor=#1c1917;fontSize=11;fontStyle=0;align=left;spacingLeft=12;spacingRight=12;spacingTop=10;spacingBottom=10;arcSize=6;" vertex="1" parent="1">
+  <mxGeometry x="1240" y="160" width="720" height="240" as="geometry" />
+</mxCell>
+<mxCell id="30" value="&lt;b&gt;DETAILED NOTE A-2: DISPATCH INTEGRITY &amp; 1-MONTH COLLECTION SLA&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Multi-Channel Proof of Delivery:&lt;/b&gt; Confirmations are dispatched via registered courier, hand delivery with acknowledgment sheet, or digitally signed email.&lt;br/&gt;• &lt;b&gt;Chain of Custody Proof:&lt;/b&gt; Dispatch slips and signed run sheets must be archived to substantiate notice delivery in case of future legal proceedings.&lt;br/&gt;• &lt;b&gt;1-Month Collection SLA:&lt;/b&gt; The CC Team and Sales Executives must achieve 100% response collection within 1 calendar month of quarter-end.&lt;br/&gt;• &lt;b&gt;Escalation Matrix:&lt;/b&gt; Late or unresponsive customers are escalated directly to the Sales Head for senior commercial engagement." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffdf5;strokeColor=#f59e0b;fontColor=#1c1917;fontSize=11;fontStyle=0;align=left;spacingLeft=12;spacingRight=12;spacingTop=10;spacingBottom=10;arcSize=6;" vertex="1" parent="1">
+  <mxGeometry x="1240" y="430" width="720" height="250" as="geometry" />
+</mxCell>
+<mxCell id="31" value="&lt;b&gt;DETAILED NOTE A-3: DISCREPANCY RECONCILIATION &amp; MIS GOVERNANCE&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Commercial Reconciliation:&lt;/b&gt; When a customer reports a variance, the Sales Head is directly accountable for resolving commercial differences (e.g. freight rate mismatches, detention waivers, uncredited debit notes).&lt;br/&gt;• &lt;b&gt;Mandatory Documentation:&lt;/b&gt; All reconciliation adjustments must be accompanied by documented business rationales and authorized credit notes.&lt;br/&gt;• &lt;b&gt;Executive MIS Report:&lt;/b&gt; The sub-process culminates in an executive Balance Confirmation MIS detailing confirmation coverage %, unresolved discrepancies, and aged variances for board and audit review." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffdf5;strokeColor=#f59e0b;fontColor=#1c1917;fontSize=11;fontStyle=0;align=left;spacingLeft=12;spacingRight=12;spacingTop=10;spacingBottom=10;arcSize=6;" vertex="1" parent="1">
+  <mxGeometry x="1240" y="710" width="720" height="260" as="geometry" />
+</mxCell>
+  </root>
+</mxGraphModel>

@@ -1,0 +1,255 @@
+<mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="2750" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+<mxCell id="2" value="&lt;b&gt;JET FREIGHT LOGISTICS LIMITED — CREDIT CONTROL PROCESS FLOWCHART&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:12px;font-weight:normal;&#x27;&gt;Master Trade Receivable Management, Escalating Dunning Notices, ERP Code Blockade, Legal Litigation &amp; SBI Insurance Recovery&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0f172a;strokeColor=#1e293b;fontColor=#ffffff;fontSize=15;fontStyle=1;align=center;arcSize=6;" vertex="1" parent="1">
+  <mxGeometry x="40" y="30" width="2060" height="60" as="geometry" />
+</mxCell>
+<mxCell id="3" value="&lt;b&gt;Process Owner:&lt;/b&gt; Head – Credit Control (CC) &amp; Collection &amp;nbsp;|&amp;nbsp; &lt;b&gt;Release Date:&lt;/b&gt; Dec 26, 2025 &amp;nbsp;|&amp;nbsp; &lt;b&gt;Version:&lt;/b&gt; 1.0 &amp;nbsp;|&amp;nbsp; &lt;b&gt;Governing Document:&lt;/b&gt; SOP - Accounts &amp; Finance (Credit Control)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e293b;strokeColor=#334155;fontColor=#94a3b8;fontSize=11;align=center;arcSize=6;" vertex="1" parent="1">
+  <mxGeometry x="40" y="95" width="2060" height="35" as="geometry" />
+</mxCell>
+<mxCell id="4" value="&lt;b&gt;Standard Credit Terms&lt;/b&gt;&lt;br/&gt;30 Days + 5 Days Grace Period" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#0f172a;fontSize=11;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="40" y="140" width="320" height="50" as="geometry" />
+</mxCell>
+<mxCell id="5" value="&lt;b&gt;Hard Credit Ceiling&lt;/b&gt;&lt;br/&gt;Strict Maximum 120 Days Capped" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#0f172a;fontSize=11;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="380" y="140" width="320" height="50" as="geometry" />
+</mxCell>
+<mxCell id="6" value="&lt;b&gt;ERP Client Blockade&lt;/b&gt;&lt;br/&gt;Automated Lock at Overdue Day 30" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#0f172a;fontSize=11;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="720" y="140" width="320" height="50" as="geometry" />
+</mxCell>
+<mxCell id="7" value="&lt;b&gt;Security Deposit Cheque&lt;/b&gt;&lt;br/&gt;Bank Deposit at Overdue Day 60" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#0f172a;fontSize=11;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="1060" y="140" width="320" height="50" as="geometry" />
+</mxCell>
+<mxCell id="8" value="&lt;b&gt;Criminal Case (Sec 138)&lt;/b&gt;&lt;br/&gt;Filed After Cheque Dishonor Cure" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#0f172a;fontSize=11;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="1400" y="140" width="320" height="50" as="geometry" />
+</mxCell>
+<mxCell id="9" value="&lt;b&gt;SBI Credit Insurance Claim&lt;/b&gt;&lt;br/&gt;Lodged After 150 Days Total Overdue" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#cbd5e1;fontColor=#0f172a;fontSize=11;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="1740" y="140" width="360" height="50" as="geometry" />
+</mxCell>
+<mxCell id="10" value="&lt;b&gt;PHASE 1: ROUTINE BILLING &amp; PRE-DUE MONITORING&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;• Billing on 1st–15th &amp; 16th–End&lt;br/&gt;• Bi-monthly Statement Dispatches&lt;br/&gt;• Proactive Sales Follow-ups&lt;br/&gt;• Standard 30-Day Credit Horizon" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2e8f0;strokeColor=#94a3b8;fontColor=#1e293b;fontSize=12;fontStyle=1;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="40" y="220" width="380" height="170" as="geometry" />
+</mxCell>
+<mxCell id="11" value="&lt;b&gt;Start: Invoices Generated &amp; Posted&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Billing Exec posts customer invoices in ERP&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dbeafe;strokeColor=#2563eb;fontColor=#1e40af;fontSize=12;fontStyle=1;align=center;arcSize=20;" vertex="1" parent="1">
+  <mxGeometry x="480" y="215" width="300" height="50" as="geometry" />
+</mxCell>
+<mxCell id="12" value="&lt;b&gt;Dispatch Statement of Accounts (SOA)&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Billing Exec emails SOA on &lt;b&gt;7th &amp; 22nd&lt;/b&gt; of month&lt;br/&gt;(Due dates: 15th &amp; 30th respectively)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#0284c7;fontColor=#0f172a;fontSize=12;fontStyle=0;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="480" y="285" width="300" height="55" as="geometry" />
+</mxCell>
+<mxCell id="13" value="&lt;b&gt;Sales Executive Direct Follow-up&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Sales Exec / BDM follows up for payment&lt;br/&gt;by &lt;b&gt;14th / 29th&lt;/b&gt; prior to due date&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eff6ff;strokeColor=#3b82f6;fontColor=#1e3a8a;fontSize=12;fontStyle=0;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="480" y="360" width="300" height="55" as="geometry" />
+</mxCell>
+<mxCell id="14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="11" target="12" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="12" target="13" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="16" value="&lt;b&gt;DETAILED NOTE 1: STATEMENT DISPATCH &amp; PRE-DUE SALES FOLLOW-UP&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Dispatch Schedule:&lt;/b&gt; Statements of Accounts (SOA) are generated and emailed by the Billing (CC) Executive on fixed cycles: the &lt;b&gt;7th&lt;/b&gt; of each month (covering bills due on the 15th) and the &lt;b&gt;22nd&lt;/b&gt; of each month (covering bills due on the 30th).&lt;br/&gt;• &lt;b&gt;Commercial Alignment:&lt;/b&gt; Sales Executives / BDMs are directly responsible for client relationship management and must proactively follow up by the &lt;b&gt;14th&lt;/b&gt; and &lt;b&gt;29th&lt;/b&gt; to preempt payment delays.&lt;br/&gt;• &lt;b&gt;Objective:&lt;/b&gt; Ensure invoices are certified, disputed charges are resolved early, and payment runs are scheduled within agreed payment terms without administrative friction." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffdf5;strokeColor=#f59e0b;fontColor=#1c1917;fontSize=11;fontStyle=0;align=left;spacingLeft=12;spacingRight=12;spacingTop=10;spacingBottom=10;arcSize=6;" vertex="1" parent="1">
+  <mxGeometry x="1180" y="220" width="920" height="140" as="geometry" />
+</mxCell>
+<mxCell id="17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#f59e0b;strokeWidth=1;dashed=1;endArrow=oval;endFill=1;startArrow=none;" edge="1" source="12" target="16" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="18" value="&lt;b&gt;PHASE 2: DUE DATE, GRACE PERIOD &amp; EARLY DUNNING&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;• Invoice Due Date Reached&lt;br/&gt;• 5-Day Standard Grace Period&lt;br/&gt;• Collection Executive Interventions&lt;br/&gt;• Reminder Notice 1 (7-Day Window)&lt;br/&gt;• Reminder Notice 2 Escalation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2e8f0;strokeColor=#94a3b8;fontColor=#1e293b;fontSize=12;fontStyle=1;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="40" y="440" width="380" height="430" as="geometry" />
+</mxCell>
+<mxCell id="19" value="&lt;b&gt;Invoice Due Date Reached&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;End of standard 30-day credit period&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#0284c7;fontColor=#0f172a;fontSize=12;fontStyle=0;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="480" y="440" width="300" height="50" as="geometry" />
+</mxCell>
+<mxCell id="20" value="&lt;b&gt;5-Day Grace Period Follow-up&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Collection Exec follows up with Customer&lt;br/&gt;&amp; Sales Exec within 5 days of due date&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8fafc;strokeColor=#0284c7;fontColor=#0f172a;fontSize=12;fontStyle=0;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="480" y="510" width="300" height="55" as="geometry" />
+</mxCell>
+<mxCell id="21" value="&lt;b&gt;Paid within&lt;br/&gt;Grace Period / 7 Days?&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#d97706;fontColor=#78350f;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1">
+  <mxGeometry x="530" y="585" width="200" height="80" as="geometry" />
+</mxCell>
+<mxCell id="22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="13" target="19" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="19" target="20" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="20" target="21" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="25" value="&lt;b&gt;Payment Realized&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Receipt issued in ERP; Case Closed&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dcfce7;strokeColor=#16a34a;fontColor=#14532d;fontSize=11;fontStyle=1;align=center;arcSize=10;" vertex="1" parent="1">
+  <mxGeometry x="860" y="600" width="240" height="50" as="geometry" />
+</mxCell>
+<mxCell id="26" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#16a34a;strokeWidth=2;fontColor=#16a34a;fontSize=11;fontStyle=1;" edge="1" source="21" target="25" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="27" value="&lt;b&gt;Issue Reminder Notice 1&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Collection Exec issues Notice 1 (Overdue Day 7/8)&lt;br/&gt;&lt;b&gt;Strict 7-Day Cure Window to Settle&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffedd5;strokeColor=#ea580c;fontColor=#9a3412;fontSize=12;fontStyle=1;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="480" y="690" width="300" height="60" as="geometry" />
+</mxCell>
+<mxCell id="28" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#dc2626;strokeWidth=2;fontColor=#dc2626;fontSize=11;fontStyle=1;" edge="1" source="21" target="27" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="29" value="&lt;b&gt;Paid within&lt;br/&gt;15 Days of Due Date?&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#d97706;fontColor=#78350f;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1">
+  <mxGeometry x="530" y="775" width="200" height="80" as="geometry" />
+</mxCell>
+<mxCell id="30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="27" target="29" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="31" value="&lt;b&gt;Payment Realized&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Receipt issued in ERP; Case Closed&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dcfce7;strokeColor=#16a34a;fontColor=#14532d;fontSize=11;fontStyle=1;align=center;arcSize=10;" vertex="1" parent="1">
+  <mxGeometry x="860" y="790" width="240" height="50" as="geometry" />
+</mxCell>
+<mxCell id="32" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#16a34a;strokeWidth=2;fontColor=#16a34a;fontSize=11;fontStyle=1;" edge="1" source="29" target="31" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="33" value="&lt;b&gt;DETAILED NOTE 2: CREDIT TERMS, GRACE PERIOD &amp; DUNNING NOTICE 1&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Terms &amp; Grace:&lt;/b&gt; Standard trading credit is 30 days. A 5-day grace period is extended during which the Collection Executive makes direct contact with both the customer&#x27;s AP department and the internal Sales Executive.&lt;br/&gt;• &lt;b&gt;Triggering Notice 1:&lt;/b&gt; If payment is not received within the grace period (Day 7/8 post due date), &lt;b&gt;Reminder Notice 1&lt;/b&gt; is formally issued via official email/letter, granting a formal 7-day cure window.&lt;br/&gt;• &lt;b&gt;Remarks Tracking:&lt;/b&gt; Collection Executives must log specific customer responses and promised payment dates against the ledger in the weekly outstanding tracker.&lt;br/&gt;• &lt;b&gt;Hard Credit Rule:&lt;/b&gt; Total credit granted to any customer must NEVER exceed 120 days under any circumstances." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffdf5;strokeColor=#f59e0b;fontColor=#1c1917;fontSize=11;fontStyle=0;align=left;spacingLeft=12;spacingRight=12;spacingTop=10;spacingBottom=10;arcSize=6;" vertex="1" parent="1">
+  <mxGeometry x="1180" y="480" width="920" height="160" as="geometry" />
+</mxCell>
+<mxCell id="34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#f59e0b;strokeWidth=1;dashed=1;endArrow=oval;endFill=1;startArrow=none;" edge="1" source="27" target="33" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="35" value="&lt;b&gt;Issue Reminder Notice 2&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Collection Exec issues Notice 2 (Overdue Day 15/16)&lt;br/&gt;Escalated warning; flags imminent ERP block&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffedd5;strokeColor=#ea580c;fontColor=#9a3412;fontSize=12;fontStyle=1;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="480" y="880" width="300" height="60" as="geometry" />
+</mxCell>
+<mxCell id="36" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#dc2626;strokeWidth=2;fontColor=#dc2626;fontSize=11;fontStyle=1;" edge="1" source="29" target="35" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="37" value="&lt;b&gt;Paid within&lt;br/&gt;30 Days of Due Date?&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#d97706;fontColor=#78350f;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1">
+  <mxGeometry x="530" y="965" width="200" height="80" as="geometry" />
+</mxCell>
+<mxCell id="38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="35" target="37" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="39" value="&lt;b&gt;Payment Realized&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Receipt issued in ERP; Case Closed&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dcfce7;strokeColor=#16a34a;fontColor=#14532d;fontSize=11;fontStyle=1;align=center;arcSize=10;" vertex="1" parent="1">
+  <mxGeometry x="860" y="980" width="240" height="50" as="geometry" />
+</mxCell>
+<mxCell id="40" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#16a34a;strokeWidth=2;fontColor=#16a34a;fontSize=11;fontStyle=1;" edge="1" source="37" target="39" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="41" value="&lt;b&gt;PHASE 3: 30-DAY CRITICAL CUTOFF &amp; ERP CODE BLOCK&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;• Automatic System Block in ERP&lt;br/&gt;• Complete Booking Embargo&lt;br/&gt;• Reminder Notice 3 (Final Notice)&lt;br/&gt;• Day 60 Final Notice Warning&lt;br/&gt;• Physical Security Deposit Invocation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2e8f0;strokeColor=#94a3b8;fontColor=#1e293b;fontSize=12;fontStyle=1;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="40" y="1070" width="380" height="350" as="geometry" />
+</mxCell>
+<mxCell id="42" value="&lt;b&gt;AUTO-BLOCK CLIENT CODE IN ERP&lt;br/&gt;&amp; Issue Final Reminder Notice 3&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;• &lt;b&gt;ERP Auto-Lock:&lt;/b&gt; System blocks new job bookings&lt;br/&gt;• &lt;b&gt;Notice 3 Issued:&lt;/b&gt; Formal notice of commercial freeze&lt;br/&gt;• Triggered at &lt;b&gt;Day 30/31&lt;/b&gt; post due date&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fee2e2;strokeColor=#dc2626;fontColor=#991b1b;fontSize=12;fontStyle=1;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="480" y="1070" width="300" height="75" as="geometry" />
+</mxCell>
+<mxCell id="43" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#dc2626;strokeWidth=2;fontColor=#dc2626;fontSize=11;fontStyle=1;" edge="1" source="37" target="42" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="44" value="&lt;b&gt;DETAILED NOTE 3: NOTICE 2, ERP AUTO-BLOCK &amp; SHIPMENT EMBARGO MANDATE&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Notice 2 Escalation (Day 15/16):&lt;/b&gt; Warns debtor of imminent system-level commercial sanctions and credit suspension.&lt;br/&gt;• &lt;b&gt;ERP Auto-Block Mechanism (Day 30/31):&lt;/b&gt; Once overdue crosses 30 days, the ERP system automatically halts all job bookings and shipping operations for the customer code. No sales coordinator or billing clerk can create new shipments.&lt;br/&gt;• &lt;b&gt;Notice 3 (Final Notice):&lt;/b&gt; Serves formal legal notice of shipment suspension and warns of security deposit cheque presentation and legal litigation if dues remain unpaid.&lt;br/&gt;• &lt;b&gt;Exception Authority:&lt;/b&gt; Skipping any reminder notice or lifting an ERP block requires explicit written approval from &lt;b&gt;Head – CC &amp; Collection&lt;/b&gt;." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffdf5;strokeColor=#f59e0b;fontColor=#1c1917;fontSize=11;fontStyle=0;align=left;spacingLeft=12;spacingRight=12;spacingTop=10;spacingBottom=10;arcSize=6;" vertex="1" parent="1">
+  <mxGeometry x="1180" y="950" width="920" height="180" as="geometry" />
+</mxCell>
+<mxCell id="45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#f59e0b;strokeWidth=1;dashed=1;endArrow=oval;endFill=1;startArrow=none;" edge="1" source="42" target="44" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="46" value="&lt;b&gt;Paid within&lt;br/&gt;60 Days of Due Date?&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#d97706;fontColor=#78350f;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1">
+  <mxGeometry x="530" y="1170" width="200" height="80" as="geometry" />
+</mxCell>
+<mxCell id="47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="42" target="46" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="48" value="&lt;b&gt;Payment Realized&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;ERP Code Unblocked; Case Closed&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dcfce7;strokeColor=#16a34a;fontColor=#14532d;fontSize=11;fontStyle=1;align=center;arcSize=10;" vertex="1" parent="1">
+  <mxGeometry x="860" y="1185" width="240" height="50" as="geometry" />
+</mxCell>
+<mxCell id="49" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#16a34a;strokeWidth=2;fontColor=#16a34a;fontSize=11;fontStyle=1;" edge="1" source="46" target="48" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="50" value="&lt;b&gt;Send Final Reminder Email (Day 60)&lt;br/&gt;&amp; Deposit Security Deposit (SD) Cheque&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;• Final email sent at Day 60 overdue (90 days total)&lt;br/&gt;• Physical SD Cheque presented to bank for clearance&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fee2e2;strokeColor=#dc2626;fontColor=#991b1b;fontSize=12;fontStyle=1;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="480" y="1275" width="300" height="70" as="geometry" />
+</mxCell>
+<mxCell id="51" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#dc2626;strokeWidth=2;fontColor=#dc2626;fontSize=11;fontStyle=1;" edge="1" source="46" target="50" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="52" value="&lt;b&gt;Does SD Cheque&lt;br/&gt;Bounce / Dishonor?&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#d97706;fontColor=#78350f;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1">
+  <mxGeometry x="530" y="1370" width="200" height="80" as="geometry" />
+</mxCell>
+<mxCell id="53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="50" target="52" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="54" value="&lt;b&gt;Cheque Cleared Successfully&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Funds realized in bank; Account settled&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dcfce7;strokeColor=#16a34a;fontColor=#14532d;fontSize=11;fontStyle=1;align=center;arcSize=10;" vertex="1" parent="1">
+  <mxGeometry x="860" y="1385" width="240" height="50" as="geometry" />
+</mxCell>
+<mxCell id="55" value="No (Cleared)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#16a34a;strokeWidth=2;fontColor=#16a34a;fontSize=11;fontStyle=1;" edge="1" source="52" target="54" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="56" value="&lt;b&gt;DETAILED NOTE 4: DAY 60 ENFORCEMENT &amp; SECURITY DEPOSIT CHEQUE DEPOSIT&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Day 60 Benchmark (30+60 = 90 Days Total Ageing):&lt;/b&gt; When overdue reaches 60 days past due date (total 90 days from invoice issuance), the account enters high-risk recovery.&lt;br/&gt;• &lt;b&gt;Final Demand Email:&lt;/b&gt; Collection Executive dispatches the Final Reminder Email demanding immediate settlement.&lt;br/&gt;• &lt;b&gt;Security Deposit Cheque Presentation:&lt;/b&gt; The physical Security Deposit (SD) cheque (or Post-Dated Cheque / PDC collected during onboarding or credit extensions) is deposited into the company&#x27;s designated bank account to recover the outstanding balance.&lt;br/&gt;• &lt;b&gt;Clearance Monitoring:&lt;/b&gt; Bank clearing report is monitored daily by Credit Control to verify realization." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffdf5;strokeColor=#f59e0b;fontColor=#1c1917;fontSize=11;fontStyle=0;align=left;spacingLeft=12;spacingRight=12;spacingTop=10;spacingBottom=10;arcSize=6;" vertex="1" parent="1">
+  <mxGeometry x="1180" y="1260" width="920" height="160" as="geometry" />
+</mxCell>
+<mxCell id="57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#f59e0b;strokeWidth=1;dashed=1;endArrow=oval;endFill=1;startArrow=none;" edge="1" source="50" target="56" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="58" value="&lt;b&gt;PHASE 4: CHEQUE DISHONOR &amp; CRIMINAL PROCEEDINGS&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;• Immediate Customer Intimation&lt;br/&gt;• Cheque Return Memo from Bank&lt;br/&gt;• Statutory 7-Day Demand Notice&lt;br/&gt;• Mandatory 7-Day Waiting Period&lt;br/&gt;• Filing Criminal Case (Sec 138 NI Act)&lt;br/&gt;• 90-Day Legal Settlement Window" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2e8f0;strokeColor=#94a3b8;fontColor=#1e293b;fontSize=12;fontStyle=1;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="40" y="1490" width="380" height="520" as="geometry" />
+</mxCell>
+<mxCell id="59" value="&lt;b&gt;Cheque Dishonor Intimation &amp; Final Notice&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;• Immediate intimation of bounce to customer&lt;br/&gt;• Formal &lt;b&gt;Cheque Bounce Notice&lt;/b&gt; issued (within 7 days)&lt;br/&gt;• &lt;b&gt;Strict 7-Day Statutory Cure Period&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fee2e2;strokeColor=#dc2626;fontColor=#991b1b;fontSize=12;fontStyle=1;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="480" y="1475" width="300" height="75" as="geometry" />
+</mxCell>
+<mxCell id="60" value="Yes (Bounced)" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#dc2626;strokeWidth=2;fontColor=#dc2626;fontSize=11;fontStyle=1;" edge="1" source="52" target="59" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="61" value="&lt;b&gt;Settled within&lt;br/&gt;7-Day Cure Window?&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#d97706;fontColor=#78350f;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1">
+  <mxGeometry x="530" y="1575" width="200" height="80" as="geometry" />
+</mxCell>
+<mxCell id="62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="59" target="61" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="63" value="&lt;b&gt;Payment Realized&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Receipt issued; Cheque returned; Closed&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dcfce7;strokeColor=#16a34a;fontColor=#14532d;fontSize=11;fontStyle=1;align=center;arcSize=10;" vertex="1" parent="1">
+  <mxGeometry x="860" y="1590" width="240" height="50" as="geometry" />
+</mxCell>
+<mxCell id="64" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#16a34a;strokeWidth=2;fontColor=#16a34a;fontSize=11;fontStyle=1;" edge="1" source="61" target="63" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="65" value="&lt;b&gt;Wait Additional Statutory Period&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Wait &lt;b&gt;7 additional days&lt;/b&gt; beyond completion of period&lt;br/&gt;(Total 14/16 days post-bounce before filing)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffedd5;strokeColor=#ea580c;fontColor=#9a3412;fontSize=12;fontStyle=1;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="480" y="1680" width="300" height="60" as="geometry" />
+</mxCell>
+<mxCell id="66" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#dc2626;strokeWidth=2;fontColor=#dc2626;fontSize=11;fontStyle=1;" edge="1" source="61" target="65" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="67" value="&lt;b&gt;File Criminal Case Against Customer&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Collection Exec &amp; Legal Counsel file criminal complaint&lt;br/&gt;under &lt;b&gt;Section 138 of Negotiable Instruments Act&lt;/b&gt;&lt;br/&gt;for dishonor of cheque&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fae8ff;strokeColor=#a855f7;fontColor=#6b21a8;fontSize=12;fontStyle=1;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="480" y="1765" width="300" height="75" as="geometry" />
+</mxCell>
+<mxCell id="68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="65" target="67" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="69" value="&lt;b&gt;Settled / Paid within&lt;br/&gt;90 Days Post-Filing?&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#d97706;fontColor=#78350f;fontSize=11;fontStyle=1;align=center;" vertex="1" parent="1">
+  <mxGeometry x="530" y="1865" width="200" height="80" as="geometry" />
+</mxCell>
+<mxCell id="70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="67" target="69" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="71" value="&lt;b&gt;Court / Mutual Settlement Realized&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Funds received; Criminal complaint withdrawn&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dcfce7;strokeColor=#16a34a;fontColor=#14532d;fontSize=11;fontStyle=1;align=center;arcSize=10;" vertex="1" parent="1">
+  <mxGeometry x="860" y="1880" width="240" height="50" as="geometry" />
+</mxCell>
+<mxCell id="72" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#16a34a;strokeWidth=2;fontColor=#16a34a;fontSize=11;fontStyle=1;" edge="1" source="69" target="71" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="73" value="&lt;b&gt;DETAILED NOTE 5: STATUTORY CHEQUE BOUNCE PROTOCOL &amp; SECTION 138 NI ACT LITIGATION&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Bank Return Memo:&lt;/b&gt; Upon receiving the cheque dishonor advice/memo from the bank (e.g. &#x27;Funds Insufficient&#x27;, &#x27;Account Closed&#x27;, &#x27;Stop Payment&#x27;), the customer is immediately intimated in writing.&lt;br/&gt;• &lt;b&gt;Statutory Cure Notice:&lt;/b&gt; A formal legal demand notice under Section 138 of the Negotiable Instruments Act is served within 7 days, demanding payment within a strict 7-day cure window.&lt;br/&gt;• &lt;b&gt;Mandatory Waiting Period:&lt;/b&gt; Following expiration of the 7-day cure notice, the company waits an additional 7 days (or total 16 days post-bounce as specified in Section 4B written table) to establish failure to comply.&lt;br/&gt;• &lt;b&gt;Criminal Case Lodgement:&lt;/b&gt; Collection Executive coordinates with Company Legal Counsel to lodge a criminal complaint before the Judicial Magistrate against the drawer of the dishonored cheque.&lt;br/&gt;• &lt;b&gt;Settlement Window:&lt;/b&gt; A 90-day tracking window is maintained to facilitate court-monitored settlement or compounding of offenses." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffdf5;strokeColor=#f59e0b;fontColor=#1c1917;fontSize=11;fontStyle=0;align=left;spacingLeft=12;spacingRight=12;spacingTop=10;spacingBottom=10;arcSize=6;" vertex="1" parent="1">
+  <mxGeometry x="1180" y="1580" width="920" height="220" as="geometry" />
+</mxCell>
+<mxCell id="74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#f59e0b;strokeWidth=1;dashed=1;endArrow=oval;endFill=1;startArrow=none;" edge="1" source="67" target="73" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="75" value="&lt;b&gt;PHASE 5: 150-DAY CUMULATIVE DELINQUENCY &amp; SBI INSURANCE&lt;/b&gt;&lt;br/&gt;&lt;br/&gt;• Longstop Loss Threshold (150 Days)&lt;br/&gt;• Commercial Recovery Exhausted&lt;br/&gt;• Credit Insurance Claim Lodgement&lt;br/&gt;• SBI General Insurance Claim Docket&lt;br/&gt;• Payout &amp; Bad-Debt Accounting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e2e8f0;strokeColor=#94a3b8;fontColor=#1e293b;fontSize=12;fontStyle=1;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="40" y="2040" width="380" height="260" as="geometry" />
+</mxCell>
+<mxCell id="76" value="&lt;b&gt;Total Overdue Reaches 150 Days:&lt;br/&gt;File Claim with Insurance Company (SBI)&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Submit formal credit insurance claim dossier with&lt;br/&gt;SBI General Insurance for default recovery&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e8ff;strokeColor=#7e22ce;fontColor=#4c1d95;fontSize=12;fontStyle=1;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="480" y="1970" width="300" height="75" as="geometry" />
+</mxCell>
+<mxCell id="77" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#dc2626;strokeWidth=2;fontColor=#dc2626;fontSize=11;fontStyle=1;" edge="1" source="69" target="76" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="78" value="&lt;b&gt;Insurance Claim Assessment &amp; Payout&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;SBI assesses claim, reviews court filing &amp; evidence;&lt;br/&gt;Insurance indemnity payout processed&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e8ff;strokeColor=#7e22ce;fontColor=#4c1d95;fontSize=12;fontStyle=1;align=center;arcSize=8;" vertex="1" parent="1">
+  <mxGeometry x="480" y="2075" width="300" height="65" as="geometry" />
+</mxCell>
+<mxCell id="79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="76" target="78" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="80" value="&lt;b&gt;Ledger Realization &amp; Write-off Recovery&lt;/b&gt;&lt;br/&gt;&lt;font style=&#x27;font-size:10px;&#x27;&gt;Account adjusted in ERP; salvage rights assigned;&lt;br/&gt;Debtor recovery cycle concluded&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dcfce7;strokeColor=#16a34a;fontColor=#14532d;fontSize=11;fontStyle=1;align=center;arcSize=10;" vertex="1" parent="1">
+  <mxGeometry x="480" y="2170" width="300" height="60" as="geometry" />
+</mxCell>
+<mxCell id="81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#475569;strokeWidth=1.5;fontColor=#334155;fontSize=11;" edge="1" source="78" target="80" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="82" value="&lt;b&gt;DETAILED NOTE 6: 150-DAY SBI CREDIT INSURANCE CLAIM LODGEMENT POLICY&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Eligibility Benchmark:&lt;/b&gt; The SOP establishes a hard long-stop threshold: unresolved overdue trade receivables reaching &lt;b&gt;150 days cumulative overdue&lt;/b&gt; are transferred to credit insurance recovery.&lt;br/&gt;• &lt;b&gt;Documentation Docket Required:&lt;/b&gt; The Collection Executive compiles the comprehensive SBI Insurance dossier: original invoices, airway bills / bills of lading, proof of delivery (POD), dispatched SOA copies, Reminder Notices 1, 2, 3, bank dishonor memo, Section 138 notice, and court filing acknowledgment.&lt;br/&gt;• &lt;b&gt;Indemnification &amp; Recovery:&lt;/b&gt; Upon insurer claim approval and disbursement, accounts receivable is adjusted, subrogation rights are executed with SBI, and bad-debt accounting entries are passed in ERP." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffdf5;strokeColor=#f59e0b;fontColor=#1c1917;fontSize=11;fontStyle=0;align=left;spacingLeft=12;spacingRight=12;spacingTop=10;spacingBottom=10;arcSize=6;" vertex="1" parent="1">
+  <mxGeometry x="1180" y="1940" width="920" height="180" as="geometry" />
+</mxCell>
+<mxCell id="83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#f59e0b;strokeWidth=1;dashed=1;endArrow=oval;endFill=1;startArrow=none;" edge="1" source="76" target="82" parent="1">
+  <mxGeometry relative="1" as="geometry" />
+</mxCell>
+<mxCell id="84" value="&lt;b&gt;DETAILED NOTE 7: INTERNAL SOP DISCREPANCIES &amp; AUDIT RECOMMENDATIONS (SECTION 8)&lt;/b&gt;&lt;br/&gt;• &lt;b&gt;Discrepancy 1 (Dunning Timelines):&lt;/b&gt; Flowchart Section 5 indicates notice triggers at Days 7, 15, 30, and 60. However, Section 4B written table states Notice 1 at Day 8, Notice 2 at Day 16, Notice 3 at Day 31, and Legal Case at 16 days after cheque bounce. &lt;i&gt;Recommendation:&lt;/i&gt; Standardize all automated ERP rules to Day 8/16/31 or 7/15/30 definitively.&lt;br/&gt;• &lt;b&gt;Discrepancy 2 (150-Day Clock Alignment):&lt;/b&gt; Flowchart checks 90 days after criminal filing, while Section 4B specifies &#x27;after completion of 150 days total&#x27;. While both align closely, the cumulative 150-day calendar clock should be the master control.&lt;br/&gt;• &lt;b&gt;Discrepancy 3 (Governance Sign-off):&lt;/b&gt; The SOP Version Control table had blank &#x27;Approved By&#x27; signatures despite being signed by Manager Siddhesh Hule. &lt;i&gt;Recommendation:&lt;/i&gt; Ensure final MD/Director sign-off is formally counter-signed on file." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff1f2;strokeColor=#e11d48;fontColor=#881337;fontSize=11;fontStyle=0;align=left;spacingLeft=12;spacingRight=12;spacingTop=10;spacingBottom=10;arcSize=6;" vertex="1" parent="1">
+  <mxGeometry x="1180" y="2150" width="920" height="170" as="geometry" />
+</mxCell>
+  </root>
+</mxGraphModel>
